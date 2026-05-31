@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.caja,
+.tarjeta {
+
+    border: 2px solid black;
+
+    margin: 10px;
+
+    padding: 15px;
+
+    width: 200px;
+
+    height: 60px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    cursor: pointer;
+}
+
+.seleccionada {
+    background-color: lightgreen;
+}
