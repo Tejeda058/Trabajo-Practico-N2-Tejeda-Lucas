@@ -1,8 +1,6 @@
-const tarjetas =
-    document.querySelectorAll(".tarjeta");
+const tarjetas = document.querySelectorAll(".tarjeta");
 
-const contador =
-    document.getElementById("contador");
+const contador = document.getElementById("contador");
 
 function actualizarContador() {
 
@@ -20,6 +18,7 @@ tarjetas.forEach(tarjeta => {
         tarjeta.classList.toggle("seleccionada");
 
         actualizarContador();
+
     });
 
 });
